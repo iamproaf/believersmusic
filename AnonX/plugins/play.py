@@ -49,7 +49,7 @@ async def play_commnd(
     url,
     fplay,
 ):
-if not await is_served_user(message.from_user.id):
+    if not await is_served_user(message.from_user.id):
         await message.reply_text(
             text="ᴇʀʀᴏʀ, ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴜsᴇʀ.\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ.",
             reply_markup=InlineKeyboardMarkup(
