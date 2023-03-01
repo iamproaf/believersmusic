@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DevilsHeavenMF")
-                await self.three.join_chat("FallenAssociation")
+                await self.three.join_chat("believerssupport")
+                await self.three.join_chat("believerssupport")
             except:
                 pass
             assistants.append(3)
