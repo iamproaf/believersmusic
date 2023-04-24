@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/iamproaf/believersmu
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/believerupdate")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Believerssupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StarkBotz_updates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/StarkBotz_support")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQCM-gn1fM9Mp5HOBOogdo9QNqreXDfcE6_OhSG0e1HL7eBv_xgZlD1jB7AVcDWLNL_xzp_FLQLTLLXvpDfu1eytrzGj9zqr_OW6Ib6HLpyKAcQc_pxWt6b-zlgTMJxEOU_3G43Jt6HZpMpr1BygycAT-tCu2q4axUNZ7K2b9yqW3o5z1KKlkxE5h4frIEzARadt5LbVapS2zdFKHU60z0ei_HR3v7EDcHfkoqPzd-J_ZWgJEjyPt6Q94PSgUkeJapphW6u3sMCB39gmN7tS5s_q-TGz2SHPq97o_jG8UPvuzJbS6z1oqqzTkbot8t_wgyU-gUsVFIix5RPnrE8BT9z3AAAAAUZT_FAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,18 +76,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a8312e965d23e5810b107.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/44b1b1a527ddb365bd933.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https://te.legra.ph/file/44b1b1a527ddb365bd933.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/44b1b1a527ddb365bd933.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
